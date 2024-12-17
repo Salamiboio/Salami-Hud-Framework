@@ -23,12 +23,6 @@ SCR_GameModeEditor GameMode_Editor_Full1 : "{DA3986AF1B5032B7}Prefabs/MP/Modes/E
   }
  }
 }
-SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
- coords 2066.469 50.812 2085.409
-}
 GenericEntity : "{BE99D77D1155B127}Prefabs/Props/Military/Arsenal/ArsenalBoxes/US/ArsenalBox_US.et" {
  coords 2061.573 50.544 2084.552
-}
-GameEntity : "{C8079DA1DAB611F8}Prefabs/Characters/HeadGear/Helmet_PASGT_01/HudHelmetTest.et" {
- coords 2050.136 43.48 2060.104
 }

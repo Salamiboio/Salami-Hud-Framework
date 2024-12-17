@@ -1,0 +1,10 @@
+GameEntity : "{61E466904E8D18D5}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991_base.et" {
+ ID "56A4B11C0BE428DA"
+ components {
+  SAL_HUDComponent "{632319420FAD859B}" {
+   m_sHudName "{8DC16EE850AF1A7B}UI/HudTest/HudTestFlashlight.layout"
+   m_HudUpdate SAL_TestHudUpdateFlashlight "{63233723CAF0375D}" {
+   }
+  }
+ }
+}

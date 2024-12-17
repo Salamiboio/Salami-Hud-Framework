@@ -1,7 +1,7 @@
 FrameWidgetClass {
  Name "rootFrame"
  {
-  ImageWidgetClass "{62E904C140C7664B}" {
+  ImageWidgetClass "{632319436E742A38}" {
    Name "HUDBase"
    Slot FrameWidgetSlot "{62E904C140C766C6}" {
     Anchor 0 0 1 1
@@ -14,8 +14,8 @@ FrameWidgetClass {
     SizeY 0
     OffsetBottom 0
    }
-   Texture "{A88EA618C6442D2C}UI/HudTest/Data/hudTest.edds"
-   Size 1024 580
+   Texture "{49D5283F06DD4459}UI/HudTest/Data/dialog.edds"
+   Size 1024 1024
   }
  }
 }

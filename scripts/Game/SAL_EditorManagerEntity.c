@@ -5,16 +5,14 @@ modded class SCR_EditorManagerEntity : SCR_EditorBaseEntity
 		super.StartEvents(type);
 		
 		if(type == EEditorEventOperation.OPEN)
-		{
+		{	
 			if(!SCR_PlayerController.GetLocalControlledEntity())
 				return;
 			
 			if(!SCR_PlayerController.GetLocalControlledEntity().FindComponent(SAL_HUDCharacterComponent))
 				return;
 			
-			SAL_HUDCharacterComponent hudCharacterComponent = SAL_HUDCharacterComponent.Cast(SCR_PlayerController.GetLocalControlledEntity().FindComponent(SAL_HUDCharacterComponent));
-			
-			hudCharacterComponent.ClearHUDs();
+			SCR_PlayerController.Cast(GetGame().GetPlayerController()).ClearHUD();
 		}
 		else if(type == EEditorEventOperation.CLOSE)
 		{
@@ -30,8 +28,12 @@ modded class SCR_EditorManagerEntity : SCR_EditorBaseEntity
 		if(!SCR_PlayerController.GetLocalControlledEntity().FindComponent(SAL_HUDCharacterComponent))
 			return;
 		
-		SAL_HUDCharacterComponent hudCharacterComponent = SAL_HUDCharacterComponent.Cast(SCR_PlayerController.GetLocalControlledEntity().FindComponent(SAL_HUDCharacterComponent));
+		if(SCR_PlayerController.Cast(GetGame().GetPlayerController()).m_aCurrentHuds.Count() > 0)
+			return;
 		
+		if(SCR_CharacterControllerComponent.Cast(SCR_PlayerController.GetLocalControlledEntity().FindComponent(SCR_CharacterControllerComponent)).GetLifeState() == ECharacterLifeState.DEAD)
+			return;
+
 		SCR_InventoryStorageManagerComponent inventory = SCR_InventoryStorageManagerComponent.Cast(SCR_PlayerController.GetLocalControlledEntity().FindComponent(SCR_InventoryStorageManagerComponent));
 		ref array<IEntity> items = {};
 		ref array<IEntity> HUDItems = {};
@@ -43,12 +45,14 @@ modded class SCR_EditorManagerEntity : SCR_EditorBaseEntity
 				HUDItems.Insert(item);
 		}
 		
-		if(HUDItems.Count() == 0)
-			return;
-		
 		foreach(IEntity HUDItem: HUDItems)
-		{ 
-			hudCharacterComponent.AddHUD(HUDItem);
+		{
+			GetGame().GetCallqueue().CallLater(AddHUD, 100, false,	HUDItem);
 		}
+	}
+	
+	void AddHUD(IEntity item)
+	{
+		SCR_PlayerController.Cast(GetGame().GetPlayerController()).AddHUD(item);
 	}
 }

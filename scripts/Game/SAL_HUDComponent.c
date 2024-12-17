@@ -7,11 +7,12 @@ class SAL_HUDComponent : ScriptComponent
 	[Attribute(desc: "Layouts Resource Name", params: "layout")]
 	protected ResourceName m_sHudName;
 	
-	[Attribute(desc: "Script used to update HUD")]
-	protected ref SAL_HUDUpdate m_cHudUpdate;
+	[Attribute(desc: "Update Script for the HUD called on each frame", params: "")]
+	protected ref SAL_HUDUpdate m_HudUpdate;
 	
-	[Attribute(desc: "Can this HUD be seen in third person")]
+	[Attribute("1", desc: "Can this HUD be seen in third person")]
 	protected bool m_bThirdPerson;
+	
 	
 	
 	ResourceName GetHudLayout()
@@ -19,9 +20,9 @@ class SAL_HUDComponent : ScriptComponent
 		return m_sHudName;
 	}
 	
-	SAL_HUDUpdate GetUpdate()
+	SAL_HUDUpdate GetHudUpdate()
 	{
-		return m_cHudUpdate;
+		return m_HudUpdate;
 	}
 	
 	bool GetThirdPerson()
