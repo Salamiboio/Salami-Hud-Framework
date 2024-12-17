@@ -1,0 +1,19 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  ImageWidgetClass "{62EA18A1288BB2ED}" {
+   Name "HUD"
+   Slot FrameWidgetSlot "{62EA18A1288BBD45}" {
+    Anchor 0 0 1 1
+    PositionX 749.304
+    PositionY 375.377
+    SizeX -1820
+    OffsetRight 0
+    SizeY -1050
+    OffsetBottom 0
+   }
+   Texture "{CDDF4D77E87E4232}UI/HudTest2/MAIN_FPV_LAYOUT.edds"
+   Size 768 432
+  }
+ }
+}

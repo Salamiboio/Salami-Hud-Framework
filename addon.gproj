@@ -1,0 +1,8 @@
+GameProject {
+ ID "SalamiHUDFramework"
+ GUID "62E904C5C053111E"
+ TITLE "SalamiHUDFramework"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

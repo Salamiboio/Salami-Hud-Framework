@@ -1,0 +1,52 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  ImageWidgetClass "{62EA1845C3B8E381}" {
+   Name "Image0"
+   Slot FrameWidgetSlot "{62EA1845C3B8E3F9}" {
+    Anchor 0 0 1 1
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX 0
+    OffsetRight 0
+    SizeY 0
+    OffsetBottom 0
+   }
+   Texture "{26813E9F69716E9D}UI/HudTest/Data/baseHUD.edds"
+   Size 1920 1080
+  }
+  FrameWidgetClass "{62EA18457CAD3FED}" {
+   Name "Frame0"
+   Slot FrameWidgetSlot "{62EA18457CAD3E32}" {
+    PositionX 721.779
+    OffsetLeft 721.779
+    PositionY -0.494
+    OffsetTop -0.494
+    SizeX 478.499
+    OffsetRight -1200.28
+    SizeY 105.263
+    OffsetBottom -104.769
+   }
+   {
+    ImageWidgetClass "{62EA18407AFA1A1E}" {
+     Name "Compass"
+     Slot FrameWidgetSlot "{62EA18407AFA1A66}" {
+      PositionX -325
+      OffsetLeft -325
+      PositionY 17
+      OffsetTop 17
+      SizeX 804.5
+      OffsetRight -479.5
+      SizeY 303.7
+      OffsetBottom -320.7
+     }
+     Texture "{C5913779DBF7E4E0}UI/HudTest/Data/topCompass.edds"
+     Size 830 46
+     Tiling None
+    }
+   }
+  }
+ }
+}

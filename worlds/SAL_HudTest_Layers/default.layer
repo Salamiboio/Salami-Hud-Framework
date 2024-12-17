@@ -1,0 +1,34 @@
+SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
+ coords 2067.636 50.536 2083.766
+}
+SCR_GameModeEditor GameMode_Editor_Full1 : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor/GameMode_Editor_Full.et" {
+ coords 2064.319 51.004 2086.925
+ {
+  SCR_FactionManager "62E91D45D5C24805" {
+   ID "56E685E92F1B7E7A"
+   Factions {
+    SCR_Faction "{56DEAC40D2DBC8B1}" {
+     m_bIsPlayable 1
+    }
+   }
+  }
+  SCR_LoadoutManager {
+   ID "56E685E92F1B7E2A"
+   m_aPlayerLoadouts {
+    SCR_FactionPlayerLoadout "{62E91D6C48EEB984}" {
+     m_sLoadoutResource "{6058AB54781A0C52}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG.et"
+     m_sAffiliatedFaction "US"
+    }
+   }
+  }
+ }
+}
+SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ coords 2066.469 50.812 2085.409
+}
+GenericEntity : "{BE99D77D1155B127}Prefabs/Props/Military/Arsenal/ArsenalBoxes/US/ArsenalBox_US.et" {
+ coords 2061.573 50.544 2084.552
+}
+GameEntity : "{C8079DA1DAB611F8}Prefabs/Characters/HeadGear/Helmet_PASGT_01/HudHelmetTest.et" {
+ coords 2050.136 43.48 2060.104
+}

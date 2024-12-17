@@ -1,0 +1,7 @@
+SCR_ChimeraCharacter {
+ ID "520EC961A090B1EE"
+ components {
+  SAL_HUDCharacterComponent "{62E904C3949F65F0}" {
+  }
+ }
+}
