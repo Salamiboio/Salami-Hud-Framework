@@ -15,6 +15,9 @@ SCR_GameModeEditor GameMode_Editor_Full1 : "{DA3986AF1B5032B7}Prefabs/MP/Modes/E
   SCR_LoadoutManager {
    ID "56E685E92F1B7E2A"
    m_aPlayerLoadouts {
+    SCR_FactionPlayerLoadout "{5596D845DBEEF78C}" {
+     m_sLoadoutResource "{6058AB54781A0C52}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG.et"
+    }
     SCR_FactionPlayerLoadout "{62E91D6C48EEB984}" {
      m_sLoadoutResource "{6058AB54781A0C52}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG.et"
      m_sAffiliatedFaction "US"

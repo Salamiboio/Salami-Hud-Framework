@@ -17,7 +17,7 @@ modded class SCR_PlayerController : PlayerController
 	void OnThirdPerson()
 	{
 		ClearHUD();
-		InitializeHUD(GetLocalControlledEntity())
+		InitializeHUD(GetLocalControlledEntity());
 	}
 	
 	void InitializeHUD(IEntity entity)
@@ -67,6 +67,10 @@ modded class SCR_PlayerController : PlayerController
 	{
 		if(SAL_HUDComponent.Cast(item.FindComponent(SAL_HUDComponent)).GetHudUpdate())
 			GetGame().GetCallqueue().Remove(SAL_HUDComponent.Cast(item.FindComponent(SAL_HUDComponent)).GetHudUpdate().Update);
+		
+		if(m_aHudEntities.Find(item) == -1)
+			return;
+		
 		m_aCurrentHuds.Get(m_aHudEntities.Find(item)).RemoveFromHierarchy();
 		m_aCurrentHuds.RemoveOrdered(m_aHudEntities.Find(item));
 		m_aHudEntities.RemoveOrdered(m_aHudEntities.Find(item));

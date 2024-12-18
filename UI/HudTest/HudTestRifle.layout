@@ -1,0 +1,21 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  ImageWidgetClass "{63240B27B833B701}" {
+   Name "HUDBase"
+   Slot FrameWidgetSlot "{62E904C140C766C6}" {
+    Anchor 0 0 1 1
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX 0
+    OffsetRight 0
+    SizeY 0
+    OffsetBottom 0
+   }
+   Texture "{3A44A82A70905DD7}UI/HudTest/Data/steal.edds"
+   Size 1024 1024
+  }
+ }
+}
