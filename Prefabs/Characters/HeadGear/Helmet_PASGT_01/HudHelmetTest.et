@@ -13,8 +13,8 @@ GameEntity : "{8A2B2A544F3ED831}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helm
    Object "{6298E440DEE27B19}Assets/Characters/HeadGear/Helmet_PASGT/Helmet_PASGT_01_cover_item.xob"
   }
   SAL_HUDComponent "{62E904C3EB6C905C}" {
-   m_sHudName "{66D1200C433B866F}UI/HudTest/HudTest.layout"
-   m_HudUpdate SAL_TestHudUpdate "{632334F966F1B046}" {
+   m_sHudName "{B22DB901429FDC86}UI/ReachHUD/ReachHud.layout"
+   m_HudUpdate SAL_HUDReachUpdate "{632334F966F1B046}" {
    }
    m_bThirdPerson 0
   }

@@ -1,0 +1,16 @@
+ImageWidgetClass {
+ Name "rootFrame"
+ Slot FrameWidgetSlot "{64427970A668FBCB}" {
+  Anchor 0.5 1 0.5 1
+  PositionX -7.5
+  OffsetLeft -7.5
+  PositionY -15
+  OffsetTop -15
+  SizeX 15
+  OffsetRight -7.5
+  SizeY 15
+  OffsetBottom 0
+ }
+ Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+ Size 16 16
+}

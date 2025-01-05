@@ -1,0 +1,14 @@
+ImageWidgetClass {
+ Name "rootFrame"
+ Slot FrameWidgetSlot "{6442797D49313FCE}" {
+  OffsetLeft 0
+  OffsetTop 0
+  SizeX 1920
+  OffsetRight -1920
+  SizeY 1080
+  OffsetBottom -1080
+ }
+ Color 0.156 0.392 0.687 0.757
+ Texture "{895218919F6C1B30}UI/ReachHUD/data/healthicon.edds"
+ Size 19 19
+}

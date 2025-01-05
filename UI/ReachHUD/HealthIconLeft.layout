@@ -1,0 +1,9 @@
+ImageWidgetClass {
+ Name "rootFrame"
+ Slot LayoutSlot "{633F3E50C6F5C17F}" {
+  Padding -2 0 0 0
+ }
+ Color 0.156 0.392 0.687 0.757
+ Texture "{895218919F6C1B30}UI/ReachHUD/data/healthicon.edds"
+ Size 19 19
+}

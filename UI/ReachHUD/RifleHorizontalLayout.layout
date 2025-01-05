@@ -1,0 +1,110 @@
+HorizontalLayoutWidgetClass {
+ Name "RifleHorizontalLayout"
+ Slot FrameWidgetSlot "{63353397150019FB}" {
+  OffsetLeft 0
+  OffsetTop 0
+  SizeX 144
+  OffsetRight -144
+  SizeY 18
+  OffsetBottom -18
+ }
+ "Fill Origin" Right
+ {
+  ImageWidgetClass "{6335339720590D50}" : "{7AF5BA743C4D49BA}UI/ReachHUD/RifleAmmoPipper.layout" {
+   Name "RiflePipper0"
+   Slot LayoutSlot "{63353399807703B2}" {
+    Padding 2 0 0 0
+   }
+  }
+  ImageWidgetClass "{6335339720590DAF}" : "{7AF5BA743C4D49BA}UI/ReachHUD/RifleAmmoPipper.layout" {
+   Name "RiflePipper1"
+   Slot LayoutSlot "{63353399807703B2}" {
+    Padding 2 0 0 0
+   }
+  }
+  ImageWidgetClass "{6335339720590D97}" : "{7AF5BA743C4D49BA}UI/ReachHUD/RifleAmmoPipper.layout" {
+   Name "RiflePipper2"
+   Slot LayoutSlot "{63353399807703B2}" {
+    Padding 2 0 0 0
+   }
+  }
+  ImageWidgetClass "{6335339720590D84}" : "{7AF5BA743C4D49BA}UI/ReachHUD/RifleAmmoPipper.layout" {
+   Name "RiflePipper3"
+   Slot LayoutSlot "{63353399807703B2}" {
+    Padding 2 0 0 0
+   }
+  }
+  ImageWidgetClass "{6335339720590DF3}" : "{7AF5BA743C4D49BA}UI/ReachHUD/RifleAmmoPipper.layout" {
+   Name "RiflePipper4"
+   Slot LayoutSlot "{63353399807703B2}" {
+    Padding 2 0 0 0
+   }
+  }
+  ImageWidgetClass "{6335339720590DD8}" : "{7AF5BA743C4D49BA}UI/ReachHUD/RifleAmmoPipper.layout" {
+   Name "RiflePipper5"
+   Slot LayoutSlot "{63353399807703B2}" {
+    Padding 2 0 0 0
+   }
+  }
+  ImageWidgetClass "{6335339720590DC6}" : "{7AF5BA743C4D49BA}UI/ReachHUD/RifleAmmoPipper.layout" {
+   Name "RiflePipper6"
+   Slot LayoutSlot "{63353399807703B2}" {
+    Padding 2 0 0 0
+   }
+  }
+  ImageWidgetClass "{6335339720590E32}" : "{7AF5BA743C4D49BA}UI/ReachHUD/RifleAmmoPipper.layout" {
+   Name "RiflePipper7"
+   Slot LayoutSlot "{63353399807703B2}" {
+    Padding 2 0 0 0
+   }
+  }
+  ImageWidgetClass "{6335339720590E21}" : "{7AF5BA743C4D49BA}UI/ReachHUD/RifleAmmoPipper.layout" {
+   Name "RiflePipper8"
+   Slot LayoutSlot "{63353399807703B2}" {
+    Padding 2 0 0 0
+   }
+  }
+  ImageWidgetClass "{6335339720590E0E}" : "{7AF5BA743C4D49BA}UI/ReachHUD/RifleAmmoPipper.layout" {
+   Name "RiflePipper9"
+   Slot LayoutSlot "{63353399807703B2}" {
+    Padding 2 0 0 0
+   }
+  }
+  ImageWidgetClass "{6335339720590E77}" : "{7AF5BA743C4D49BA}UI/ReachHUD/RifleAmmoPipper.layout" {
+   Name "RiflePipper10"
+   Slot LayoutSlot "{63353399807703B2}" {
+    Padding 2 0 0 0
+   }
+  }
+  ImageWidgetClass "{6335339720590E64}" : "{7AF5BA743C4D49BA}UI/ReachHUD/RifleAmmoPipper.layout" {
+   Name "RiflePipper11"
+   Slot LayoutSlot "{63353399807703B2}" {
+    Padding 2 0 0 0
+   }
+  }
+  ImageWidgetClass "{6335339720590E50}" : "{7AF5BA743C4D49BA}UI/ReachHUD/RifleAmmoPipper.layout" {
+   Name "RiflePipper12"
+   Slot LayoutSlot "{63353399807703B2}" {
+    Padding 2 0 0 0
+   }
+  }
+  ImageWidgetClass "{6335339720590EBC}" : "{7AF5BA743C4D49BA}UI/ReachHUD/RifleAmmoPipper.layout" {
+   Name "RiflePipper13"
+   Slot LayoutSlot "{63353399807703B2}" {
+    Padding 2 0 0 0
+   }
+  }
+  ImageWidgetClass "{6335339720590EAC}" : "{7AF5BA743C4D49BA}UI/ReachHUD/RifleAmmoPipper.layout" {
+   Name "RiflePipper14"
+   Slot LayoutSlot "{63353399807703B2}" {
+    Padding 2 0 0 0
+   }
+  }
+  ImageWidgetClass "{6335339720590E92}" : "{7AF5BA743C4D49BA}UI/ReachHUD/RifleAmmoPipper.layout" {
+   Name "RiflePipper15"
+   Slot LayoutSlot "{63353399807703B2}" {
+    Padding 2 0 0 0
+   }
+  }
+ }
+}

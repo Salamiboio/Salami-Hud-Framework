@@ -66,7 +66,10 @@ modded class SCR_PlayerController : PlayerController
 	void RemoveHUD(IEntity item)
 	{
 		if(SAL_HUDComponent.Cast(item.FindComponent(SAL_HUDComponent)).GetHudUpdate())
+		{
+			SAL_HUDComponent.Cast(item.FindComponent(SAL_HUDComponent)).GetHudUpdate().OnDestroyed();
 			GetGame().GetCallqueue().Remove(SAL_HUDComponent.Cast(item.FindComponent(SAL_HUDComponent)).GetHudUpdate().Update);
+		}
 		
 		if(m_aHudEntities.Find(item) == -1)
 			return;
@@ -85,7 +88,10 @@ modded class SCR_PlayerController : PlayerController
 		foreach(IEntity hudItem: m_aHudEntities)
 		{
 			if(SAL_HUDComponent.Cast(hudItem.FindComponent(SAL_HUDComponent)).GetHudUpdate())
+			{
+				SAL_HUDComponent.Cast(hudItem.FindComponent(SAL_HUDComponent)).GetHudUpdate().OnDestroyed();
 				GetGame().GetCallqueue().Remove(SAL_HUDComponent.Cast(hudItem.FindComponent(SAL_HUDComponent)).GetHudUpdate().Update);
+			}
 		}
 		m_aCurrentHuds.Clear();
 		m_aHudEntities.Clear();

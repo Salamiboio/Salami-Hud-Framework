@@ -1,0 +1,14 @@
+ImageWidgetClass {
+ Name "RiflePipper"
+ Slot FrameWidgetSlot "{6335339AD4A641A8}" {
+  OffsetLeft 0
+  OffsetTop 0
+  SizeX 6
+  OffsetRight -6
+  SizeY 13
+  OffsetBottom -13
+ }
+ Color 0.198 0.607 1 1
+ Texture "{62693314E70F2173}UI/ReachHUD/data/rifleammopipper.edds"
+ Size 6 14
+}

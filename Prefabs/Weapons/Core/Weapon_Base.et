@@ -1,0 +1,7 @@
+GenericEntity {
+ ID "CFBAA4B725411E45"
+ components {
+  SAL_HUDWeaponComponent "{633F3E0F3053B5A0}" {
+  }
+ }
+}
